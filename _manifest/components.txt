@@ -1,0 +1,12 @@
+HQ
+HQ.Common
+HQ.Remix
+HQ.Cadence
+HQ.Harmony
+HQ.Rosetta
+HQ.Domicile
+HQ.MissionControl
+HQ.Touchstone
+HQ.Cohort
+HQ.Flow
+HQ.Strings
