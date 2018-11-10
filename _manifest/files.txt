@@ -1,6 +1,7 @@
 assets\320x320.png
 build\package.props
 build\build.props
+package\PackagePrep.sln
 package\PackagePrep.csproj
 package\Program.cs
 .editorconfig
