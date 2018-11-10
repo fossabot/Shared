@@ -9,7 +9,7 @@ package\Program.cs
 .gitconfig
 .gitignore
 clean.cmd
-LICENSE.md
+LICENSE.txt
 LICENSE_FULL.txt
 update-submodules.cmd
 update-packages.ps1
