@@ -1,3 +1,5 @@
+@ECHO OFF
+
 REM use .gitconfig for this repository
 git config --local include.path /.gitconfig
 

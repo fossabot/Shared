@@ -9,10 +9,18 @@ namespace PackagePrep
     {
         static void Main(string[] args)
         {
+            if (args.Length == 0 || args.Length > 3 ||
+                args[0].Equals("tokenize", StringComparison.OrdinalIgnoreCase) && args.Length != 3 ||
+                args[0].Equals("nuspec", StringComparison.OrdinalIgnoreCase) && args.Length != 2)
+            {
+                Console.WriteLine("PackagePrep [tokenize|nuspec] [project-directory] (rootNamespace)");
+                return;
+            }
+
             Console.WriteLine($"PackagePrep {string.Join(' ', args)}");
             Console.WriteLine();
 
-            void ReplaceFileInArchive(ZipArchive archive, ZipArchiveEntry entry, FileInfo file, string content)
+            void ReplaceFileInArchive(ZipArchiveEntry entry, string content)
             {
                 using (var stream = entry.Open())
                 {
@@ -95,7 +103,7 @@ namespace PackagePrep
                                     Console.WriteLine(updated);
                                 }
 
-                                ReplaceFileInArchive(archive, entry, file, updated);
+                                ReplaceFileInArchive(entry, updated);
 
                                 var after = ReadFileInArchive(entry);
 

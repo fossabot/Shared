@@ -63,7 +63,7 @@
 
   <PropertyGroup>
     <PreBuildEvent>
-      dotnet run --project &quot;\package\PackagePrep\PackagePrep.csproj&quot; -- tokenize $(MSBuildProjectDirectory)
+      dotnet run -c Release -p &quot;$(SolutionDir)..\package\PackagePrep\PackagePrep.csproj&quot; -- tokenize $(RootNamespace) $(MSBuildProjectDirectory)
     </PreBuildEvent>
   </PropertyGroup>
 
