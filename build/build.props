@@ -18,12 +18,12 @@
     <NoBuild>true</NoBuild>
   </PropertyGroup>
 
-  <!-- Hide pre-processor files file working -->
+  <!-- Hide pre-processor files when working -->
   <ItemGroup Condition="'$(Configuration)'!='PackageSources'">
     <None Remove="**\*.pp" />
   </ItemGroup>
   
-  <!-- Hide source files while packaging -->
+  <!-- Hide source files when packaging -->
   <ItemGroup Condition="'$(Configuration)'=='PackageSources'">
     <None Include="**\*.pp" Exclude="obj\**" />
     <Compile Remove="**\*.cs" />
@@ -63,7 +63,7 @@
 
   <PropertyGroup>
     <PreBuildEvent>
-      dotnet run --project &quot;\build\PackagePrep\PackagePrep.csproj&quot; -- tokenize $(MSBuildProjectDirectory)
+      dotnet run --project &quot;\package\PackagePrep\PackagePrep.csproj&quot; -- tokenize $(MSBuildProjectDirectory)
     </PreBuildEvent>
   </PropertyGroup>
 

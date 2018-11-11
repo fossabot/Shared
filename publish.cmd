@@ -1,5 +1,6 @@
 @ECHO OFF
 
+REM Publishing assumes the shared repo is at the same directory level as all other components
 echo (c) HQ.IO 
 echo:
 
