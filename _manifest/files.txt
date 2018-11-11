@@ -6,8 +6,8 @@ assets\320x320.png
 build\package.props
 build\build.props
 package\PackagePrep.sln
-package\PackagePrep.csproj
-package\Program.cs
+package\PackagePrep\PackagePrep.csproj
+package\PackagePrep\Program.cs
 clean.cmd
 LICENSE.txt
 LICENSE_FULL.txt
