@@ -10,3 +10,7 @@ HQ.Touchstone
 HQ.Cohort
 HQ.Flow
 HQ.Strings
+HQ.Zero
+HQ.Tokens
+HQ.Connect
+HQ.Lingo
