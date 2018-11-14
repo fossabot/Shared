@@ -14,7 +14,8 @@
    
   <PropertyGroup Condition="'$(Configuration)'!='Debug'">
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-  </PropertyGroup>  
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
   
   <!-- Add .Sources suffix to package to support dual releases -->
   <PropertyGroup Condition="'$(Configuration)'=='PackageSources'">
