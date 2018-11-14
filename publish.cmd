@@ -4,8 +4,9 @@ REM Publishing assumes the shared repo is at the same directory level as all oth
 echo (c) HQ.IO 
 echo:
 
-REM copy reset.cmd to packaging project
-xcopy /f /s /y "reset.cmd" "%~dp0..\HQ\reset.cmd*" |find /v "File(s) copied"
+REM copy packaging project files
+xcopy /f /s /y "rebuild.cmd" "%~dp0..\HQ\rebuild.cmd*" |find /v "File(s) copied"
+xcopy /f /s /y "precommit.cmd" "%~dp0..\HQ\precommit.cmd*" |find /v "File(s) copied"
 
 for /F "USEBACKQ TOKENS=*" %%b in ("%~dp0_manifest\components.txt") do (
 
