@@ -15,3 +15,5 @@ HQ.Tokens
 HQ.Connect
 HQ.Lingo
 HQ.Extensions
+HQ.Archivist
+HQ.Evolve
