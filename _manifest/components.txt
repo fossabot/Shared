@@ -17,3 +17,7 @@ HQ.Lingo
 HQ.Extensions
 HQ.Archivist
 HQ.Evolve
+HQ.Sodium
+HQ.Cryptography
+HQ.Blockchain
+HQ.Delta
