@@ -15,9 +15,10 @@ for /F "USEBACKQ TOKENS=*" %%b in ("%~dp0_manifest\components.txt") do (
 	echo ================================================
 	echo:
 
-	REM copy boilerplate THIRD-PARTY-NOTICES.txt if it doesn't exist
+	REM copy boilerplate files, if they doesn't exist
 	if not exist "%~dp0..\..\HQ\%%b\THIRD-PARTY-NOTICES.txt" copy "%~dp0THIRD-PARTY-NOTICES.txt" "%~dp0..\..\HQ\%%b\THIRD-PARTY-NOTICES.txt" |find /v "File(s) copied"
-
+	if not exist "%~dp0..\..\HQ\%%b\README.md" copy "%~dp0README.md" "%~dp0..\..\HQ\%%b\README.md" |find /v "File(s) copied"
+	
 	REM copy shared settings using project-specific solution name
 	xcopy /f /s /y "HQ.X.sln.DotSettings" "%~dp0..\..\HQ\%%b\src\%%b.sln.DotSettings*" |find /v "File(s) copied"
 	

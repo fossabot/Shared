@@ -1,13 +1,13 @@
 HQ
 HQ.Common
 HQ.Remix
-HQ.Cadence
+HQ.Extensions.Metrics
 HQ.Harmony
 HQ.Rosetta
 HQ.Domicile
 HQ.MissionControl
 HQ.Touchstone
-HQ.Cohort
+HQ.Extensions.Identity
 HQ.Flow
 HQ.Strings
 HQ.Zero
@@ -21,3 +21,4 @@ HQ.Sodium
 HQ.Cryptography
 HQ.Blockchain
 HQ.Delta
+HQ.Echo
