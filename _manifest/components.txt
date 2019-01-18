@@ -1,14 +1,14 @@
 HQ
 HQ.Common
-HQ.Remix
+HQ.CodeGeneration
 HQ.Extensions.Metrics
-HQ.Harmony
-HQ.Rosetta
+HQ.Extensions.DependencyInjection
+HQ.Data.Contracts
 HQ.Domicile
 HQ.MissionControl
 HQ.Touchstone
 HQ.Extensions.Identity
-HQ.Flow
+HQ.Extensions.Messaging
 HQ.Strings
 HQ.Zero
 HQ.Tokens
@@ -16,7 +16,7 @@ HQ.Connect
 HQ.Lingo
 HQ.Extensions
 HQ.Archivist
-HQ.Evolve
+HQ.Data.Streaming
 HQ.Sodium
 HQ.Cryptography
 HQ.Blockchain

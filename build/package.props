@@ -12,6 +12,7 @@
     <RepositoryUrl>https://github.com/hq-io/$(MSBuildProjectName)</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+	<PackageTags>hq-io dotnet-standard serverless platform</PackageTags>
   </PropertyGroup>
    
   <PropertyGroup Condition="'$(Configuration)'!='Debug'">
