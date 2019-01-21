@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1290A580-4C23-4974-AA73-DF1AB4CABB78}"
+	ProjectSection(SolutionItems) = preProject
+		..\HQ.Extensions\src\LICENSE.txt = ..\HQ.Extensions\src\LICENSE.txt
+		..\HQ.Extensions\src\LICENSE_FULL.txt = ..\HQ.Extensions\src\LICENSE_FULL.txt
+		..\HQ.Extensions\src\README.md = ..\HQ.Extensions\src\README.md
+		..\HQ.Extensions\src\THIRD-PARTY-NOTICES.txt = ..\HQ.Extensions\src\THIRD-PARTY-NOTICES.txt
+		..\HQ.Extensions\HQ\build\version.props = ..\HQ.Extensions\HQ\build\version.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Platform", "Platform", "{96D0DF19-C8B1-40DB-8FEA-4BB900C1F34D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{455F9EE2-9DE3-4A1C-926E-4E4561C2DCA0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{B4C5B3B2-B055-4972-92C7-C452460ED10F}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CFAFC50E-BFCB-48C1-8F98-33C32E34C935}
+	EndGlobalSection
+EndGlobal

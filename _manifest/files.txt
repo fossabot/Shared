@@ -2,9 +2,9 @@
 .gitattributes
 .gitconfig
 .gitignore
-assets\320x320.png
 build\package.props
 build\build.props
+build\version.props
 package\PackagePrep.sln
 package\PackagePrep\PackagePrep.csproj
 package\PackagePrep\Program.cs
