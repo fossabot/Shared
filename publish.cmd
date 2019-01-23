@@ -1,7 +1,7 @@
 @ECHO OFF
 
 REM Publishing assumes the shared repo is at the same directory level as all other components
-echo (c) HQ.io 
+echo (c) HQ.IO
 echo:
 
 REM copy packaging project files
@@ -15,7 +15,7 @@ for /F "USEBACKQ TOKENS=*" %%b in ("%~dp0_manifest\components.txt") do (
 	echo ================================================
 	echo:
 
-	REM copy boilerplate files, if they doesn't exist
+	REM copy boilerplate files, if they don't exist
 	if not exist "%~dp0..\..\HQ\%%b\THIRD-PARTY-NOTICES.txt" copy "%~dp0THIRD-PARTY-NOTICES.txt" "%~dp0..\..\HQ\%%b\THIRD-PARTY-NOTICES.txt" |find /v "File(s) copied"
 	if not exist "%~dp0..\..\HQ\%%b\README.md" copy "%~dp0README.md" "%~dp0..\..\HQ\%%b\README.md" |find /v "File(s) copied"
 	
