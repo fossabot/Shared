@@ -1,7 +1,7 @@
 @ECHO OFF
 
 REM Publishing assumes the shared repo is at the same directory level as all other components
-echo (c) HQ.IO
+echo (c) HQ.IO Corporation. All rights reserved.
 echo:
 
 REM copy packaging project files

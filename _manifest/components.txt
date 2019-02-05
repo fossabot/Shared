@@ -5,7 +5,9 @@ HQ.Data.Contracts
 HQ.Data.Streaming
 HQ.Platform.Api
 HQ.Platform.Operations
+HQ.Platform.Schema
 HQ.Test.Sdk
+HQ.Extensions
 HQ.Extensions.Identity
 HQ.Extensions.Messaging
 HQ.Strings
@@ -13,8 +15,6 @@ HQ.Zero
 HQ.Tokens
 HQ.Connect
 HQ.Lingo
-HQ.Extensions
-HQ.Platform.Schema
 HQ.Sodium
 HQ.Cryptography
 HQ.Data.Blockchain
