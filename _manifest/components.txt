@@ -3,10 +3,6 @@ HQ.Common
 HQ.Data
 HQ.Platform
 HQ.Extensions
-HQ.CodeGeneration
 HQ.Test.Sdk
 HQ.Strings
 HQ.Zero
-HQ.Sodium
-HQ.Cryptography
-HQ.Delta
